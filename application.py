@@ -6,9 +6,9 @@ app = Flask(__name__)
 
 def random_quote():
 	quote_list = ["Bite my shiny, metal ass!"]
-	quote_list.append = ["Hey sexy mama, wanna kill all humans?"]
-	quote_list.append = ["You know what cheers me up? Other people's misfortune."]
-	quote_list.append = ["I'm so embarrassed. I wish everyone else was dead!"]
+	quote_list.append("Hey sexy mama, wanna kill all humans?")
+	quote_list.append("You know what cheers me up? Other people's misfortune.")
+	quote_list.append("I'm so embarrassed. I wish everyone else was dead!")
 	return secrets.choice(quote_list)
 
 @app.route("/")
