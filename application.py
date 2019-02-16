@@ -5,7 +5,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-	#return('blah')
 	return render_template('bender.html')
 
 '''
