@@ -20,6 +20,9 @@ def random_quote():
 def index():
 	return render_template("bender.html", quote = random_quote())
 
+if __name__ == "__main__":
+    app.run
+
 '''
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int("5000"), debug=True)
