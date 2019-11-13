@@ -8,6 +8,6 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'DockerHub'
-    repository: 'flask-demo'
+    repository: 'riceyo/flask-demo'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
